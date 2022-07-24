@@ -1,10 +1,10 @@
 import "../App.css";
-import logoReact from "../imagenes/react.png";
+import logoMP from "../imagenes/icon-mp.png";
 
 function Logo() {
   return (
     <div className="logo-contenedor">
-      <img src={logoReact} className="logo" alt="Logo" />
+      <img src={logoMP} className="logo" alt="Logo" />
     </div>
   );
 }
